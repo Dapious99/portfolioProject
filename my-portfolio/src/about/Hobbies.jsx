@@ -3,14 +3,13 @@ import React from 'react'
 const Hobbies = () => {
   return (
     <div>
-      <ul className="list-decimal flex gap-3 sm:flex-wrap">
-        <li>HTML/HTML5</li>
-        <li>CSS/CSS3</li>
-        <li>TailwindCSS/BootStrap</li>
-        <li>JavaScript</li>
-        <li>ReactJs</li>
-        <li>Context-Api</li>
-        <li>Apis Integration</li>
+      <h2 className="font-bold text-[1.5rem] decoration-3 underline decoration-blue-700">
+        Hobbies
+      </h2>
+      <ul className="list-disc flex gap-6 sm:flex-wrap font-medium">
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Surfing the Internet</li>
       </ul>
     </div>
   );
