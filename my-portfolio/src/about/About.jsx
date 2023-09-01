@@ -17,8 +17,8 @@ const About = () => {
         <Hobbies />
       </div>
       <div className="pt-[4rem]">
-        <div className="bg-blueDots bg-cover bg-no-repeat">
-          <img src={kamal} className=""/>
+        <div className="border-4 border-dashed border-blue-700">
+          <img src={kamal} className="relative bottom-8 left-[3rem]"/>
         </div>
       </div>
     </div>

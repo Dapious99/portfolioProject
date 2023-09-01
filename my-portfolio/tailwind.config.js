@@ -9,7 +9,7 @@ module.exports = {
         sm: { max: "415px" },
       },
       backgroundImage: {
-        blueDots: "url('/src/assets/bluedots.png');",
+        '': "url('');",
       },
     },
   },
