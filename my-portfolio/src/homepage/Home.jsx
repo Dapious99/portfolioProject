@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button/Button";
 import workS from "../assets/workspace.png";
-import { IoMdMail } from 'react-icons/io'
+import { IoMdMail } from "react-icons/io";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiSolidPhoneCall } from "react-icons/bi";
 
@@ -27,7 +27,7 @@ const Home = () => {
                   style="hover:bg-blue-700 bg-black rounded-full text-white py-2 px-6"
                 />
               </a>
-              <a>
+              <a href="https://github.com/Dapious99">
                 <Button
                   text={"Portfolio"}
                   style="hover:bg-blue-700 bg-black rounded-full text-white py-2 px-6"
@@ -36,17 +36,17 @@ const Home = () => {
             </div>
             <div className="text-white flex gap-4 sm:flex-wrap">
               <div className="flex items-center gap-3">
-                <IoMdMail size={30}/>
+                <IoMdMail size={30} />
                 <p>dapious99@gmail.com</p>
               </div>
               <div className="flex items-center gap-3">
-                <BiLogoLinkedin size={30}/>
+                <BiLogoLinkedin size={30} />
                 <a href="https://www.linkedin.com/in/kamalideen-omotosho-a50135270/">
                   LinkedIn
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <BiSolidPhoneCall size={30}/>
+                <BiSolidPhoneCall size={30} />
                 <p>+234 811 0792 758</p>
               </div>
             </div>
