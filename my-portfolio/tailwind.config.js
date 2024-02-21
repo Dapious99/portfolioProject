@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-feat/navbar
   content: ["./src/**/*.{html,js,jsx}"],
-
-feat/dev
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        md: { min: "416px", max: "850px" },
+
+        sm: { max: "415px" },
+      },
+    },
   },
   plugins: [],
 };
