@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Language = () => {
   return (
@@ -9,10 +9,10 @@ const Language = () => {
       <ul className="flex gap-3 sm:flex-wrap">
         <li>English Language</li>
         <li>Yoruba</li>
-        <li>Hausa</li>
+        <li>Hausa(Beginner)</li>
       </ul>
     </div>
   );
-}
+};
 
-export default Language
+export default Language;

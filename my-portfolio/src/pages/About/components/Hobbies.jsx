@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Hobbies = () => {
   return (
@@ -9,10 +9,12 @@ const Hobbies = () => {
       <ul className="flex gap-3 sm:flex-wrap">
         <li>Coding</li>
         <li>Reading</li>
-        <li>Surfing the Internet</li>
+        <li>Internet Surfing</li>
+        <li>Chess</li>
+        <li>Learning about new emerging Technologies</li>
       </ul>
     </div>
   );
-}
+};
 
-export default Hobbies
+export default Hobbies;

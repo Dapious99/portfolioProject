@@ -1,13 +1,17 @@
 import React from "react";
-import Button from "../button/Button";
-import workOne from "../assets/codevanta.jpg";
+import workOne from "../../assets/codevanta.jpg";
+import Button from "../../components/Button";
 
 const Works = () => {
   return (
     <div className="bg-black p-4 h-screen text-white">
       <div className="flex gap-4 bg-black shadow-xl rounded-xl p-4">
         <div className="w-[45rem]">
-          <img src={workOne} className="rounded-lg" />
+          <img
+            src={workOne}
+            alt="An image showing the codevanta homepage"
+            className="rounded-lg"
+          />
         </div>
         <div>
           <p>CodeVanta Website</p>

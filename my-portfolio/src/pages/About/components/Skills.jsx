@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Skills = () => {
   return (
-    <div className='flex gap-[4rem]'>
+    <div className="flex gap-[4rem]">
       <div>
         <h2 className="font-semibold text-[1.5rem] decoration-3 underline decoration-blue-700">
           Software Skills
@@ -13,8 +13,9 @@ const Skills = () => {
           <li>TailwindCSS/BootStrap</li>
           <li>JavaScript</li>
           <li>ReactJs</li>
-          <li>Context-Api</li>
-          <li>Apis Integration</li>
+          <li>Context-Api/Redux-toolkit</li>
+          <li>Api Integration</li>
+          <li>Basic understanding of Typescript and Nextjs</li>
         </ul>
       </div>
       <div>
@@ -31,6 +32,6 @@ const Skills = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Skills
+export default Skills;
