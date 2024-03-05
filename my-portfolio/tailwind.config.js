@@ -8,6 +8,7 @@ module.exports = {
 
         sm: { max: "415px" },
       },
+
       backgroundImage: {
         '': "url('');",
       },

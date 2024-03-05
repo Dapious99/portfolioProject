@@ -1,3 +1,4 @@
+import Works from "./works/Works";
 import './App.css';
 import About from './about/About';
 import Home from './homepage/Home';
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <About />
+          <Works />
      <Home />
      <Navbar />
     </div>
