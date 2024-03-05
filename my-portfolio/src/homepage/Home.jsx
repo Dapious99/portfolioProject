@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../button/Button";
+import Button from "../components/button/Button";
 import workS from "../assets/workspace.png";
-import { IoMdMail } from "react-icons/io";
+import { IoMdMail, IoLogoWhatsapp } from "react-icons/io";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiSolidPhoneCall } from "react-icons/bi";
 
@@ -29,12 +29,12 @@ const Home = () => {
               </a>
               <a href="https://github.com/Dapious99">
                 <Button
-                  text={"Portfolio"}
+                  text={"Github"}
                   style="hover:bg-blue-700 bg-black rounded-full text-white py-2 px-6"
                 />
               </a>
             </div>
-            <div className="text-white flex gap-4 sm:flex-wrap">
+            <div className="text-white flex gap-4 flex-wrap">
               <div className="flex items-center gap-3">
                 <IoMdMail size={30} />
                 <p>dapious99@gmail.com</p>
@@ -46,8 +46,14 @@ const Home = () => {
                 </a>
               </div>
               <div className="flex items-center gap-3">
+                <IoLogoWhatsapp size={30} />
+                <a href="https://api.whatsapp.com/send?phone=2348110792758&text=Good%20day.%0AHow%20can%20we%20help%20you%20today%3F%0AWe%20are%20here%20for%20anything%20frontend%20related%20and%20websites%20creation.%20Kodewarlock%F0%9F%98%8D%F0%9F%98%8D">
+                  +234 811 0792 758
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
                 <BiSolidPhoneCall size={30} />
-                <p>+234 811 0792 758</p>
+                <p>+234 816 8212 678</p>
               </div>
             </div>
           </div>
