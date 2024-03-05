@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../button/Button";
+import Button from "../components/Button";
 import workS from "../assets/workspace.png";
 import { IoMdMail } from "react-icons/io";
 import { BiLogoLinkedin } from "react-icons/bi";
