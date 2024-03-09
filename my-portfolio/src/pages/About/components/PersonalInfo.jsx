@@ -23,13 +23,13 @@ const PersonalInfo = () => {
         complex ideas into elegant solutions, I pride myself on writing code
         that's not just functional, but also a joy to read. Whether I'm flying
         solo or collaborating within a team, I bring focus, determination, and a
-        dash of innovation to the table. Detail-oriented? You bet! I
-        meticulously bring to life the visions handed down by our talented
-        product designers and improve them, ensuring that every pixel is in its
-        perfect place to deliver an unforgettable user experience. So if you're
-        looking for someone who can bring your digital dreams to life –
-        seamlessly blending creativity with technical prowess – then look no
-        further. Let's create something extraordinary together.
+        dash of innovation to the table. I meticulously bring to life the
+        visions handed down by our product designers and improve them, ensuring
+        that every pixel is in its perfect place to deliver an unforgettable
+        user experience. So if you're looking for someone who can bring your
+        digital dreams to life – seamlessly blending creativity with technical
+        prowess – then look no further. Let's create something extraordinary
+        together.
       </p>
     </div>
   );

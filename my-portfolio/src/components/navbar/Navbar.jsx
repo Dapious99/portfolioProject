@@ -6,16 +6,16 @@ const Navbar = () => {
     <nav>
       <div className="flex xl:justify-start justify-center bg-black text-white py-3 px-5">
         <div className="flex gap-8 sm:gap-6">
-          <Link to="/" className="hover:text-blue-700 hover:pb-2">
+          <Link to="/" className="hover:text-blue-700 hover:pr-2">
             Home
           </Link>
-          <Link to="/about-me" className="hover:text-blue-700 hover:pb-2">
+          <Link to="/about-me" className="hover:text-blue-700 hover:pr-2">
             About
           </Link>
-          <Link to="/my-projects" className="hover:text-blue-700 hover:pt-2">
+          <Link to="/my-projects" className="hover:text-blue-700 hover:pl-2">
             My Projects
           </Link>
-          <p className="hover:text-blue-700 hover:pt-2">Experience</p>
+          <p className="hover:text-blue-700 hover:pl-2">Experience</p>
         </div>
       </div>
     </nav>
